@@ -1,0 +1,19 @@
+# Les étapes pour gestion cloner les doc
+## Paramettrage de git en local
+cd "Mes doc/d1/DSTI_M2/MLOPS/github"
+git config --global user.name "Lucien Sy TRAORE"
+git config --global user.email luciensyt@gmail.com
+git init
+
+## Première étape : cloner en local
+git add .
+git status
+git commit -m "Le message du commit", envoie dans le dossier en local
+
+## Deuxième étape : cloner en local
+git clone "chemin du dossier de depôt github sans les accolade"
+git push -u origin master, pour envoie dans dossier en ligne
+git log, pour voir la liste des commite en ligne faite
+git show, affiche le contenu du dossier cloner en ligne
+
+
