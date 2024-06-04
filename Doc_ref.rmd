@@ -17,3 +17,10 @@ git log, pour voir la liste des commite en ligne faite
 git show, affiche le contenu du dossier cloner en ligne
 
 
+## Etape de suppression d'un dossier distant
+git rm --cached "nom_dossier distant", pour la supression dans le depôt distant
+rm -rf "nom_dossier distant", pour la supression dans le depôt local
+git commit -m "raison de la suppression"
+git push origin master, mise à jour du depôt distant
+
+
