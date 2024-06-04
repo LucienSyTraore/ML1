@@ -13,7 +13,7 @@ git status, cette étape est optionnelle
 git commit -m "Le message du commit", envoie dans le dossier en local
 
 ## Deuxième étape : cloner en local
-git clone "chemin du dossier de depôt github sans les accolade"
+git clone "chemin du dossier de depôt github sans les accolade", recupérer un travail depuis un depôt distant
 git push -u origin master, pour envoie dans dossier en ligne
 git log, pour voir la liste des commite en ligne faite
 git show, affiche le contenu du dossier cloner en ligne
